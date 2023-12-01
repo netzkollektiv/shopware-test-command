@@ -1,0 +1,18 @@
+{
+  "name": "netzkollektiv/test-command",
+  "description": "Simple command to test arbitrary functionality",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "NetzkollektivTestCommand\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "NetzkollektivTestCommand\\NetzkollektivTestCommand",
+    "label": {
+      "de-DE": "Einfacher Befehl zum Testen beliebiger Funktionen",
+      "en-GB": "Simple command to test arbitrary functionality"
+    }
+  }
+}
